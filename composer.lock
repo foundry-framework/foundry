@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c5d1b15f34e952f4ecc0aeef89700d8c",
+    "content-hash": "c5712aa98ea972fe2843aa1c4a3339b2",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -365,6 +365,52 @@
                 "trusted proxy"
             ],
             "time": "2018-02-07T20:20:57+00:00"
+        },
+        {
+            "name": "foundry/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fndry-io/laravel-foundry.git",
+                "reference": "15b5b564e9cf9c26e63e74b8ad1585e1ee1ef268"
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "fideloper/proxy": "^4.0",
+                "laravel/framework": "5.7.*",
+                "laravel/tinker": "^1.0",
+                "nwidart/laravel-modules": "dev-features"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "dont-discover": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Foundry\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Foundry\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Foundry Framework.",
+            "keywords": [
+                "framework",
+                "laravel"
+            ],
+            "time": "2018-11-02T15:12:50+00:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -4192,7 +4238,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "nwidart/laravel-modules": 20,
-        "foundry/laravel": 20
+        "foundry/core": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
