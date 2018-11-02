@@ -7,10 +7,6 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/fndry-io/laravel-plugins.git"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/fndry-io/laravel-foundry.git"
         }
     ],
@@ -19,7 +15,6 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "nwidart/laravel-modules":"dev-features",
         "foundry/laravel": "dev-master"
     },
     "require-dev": {
